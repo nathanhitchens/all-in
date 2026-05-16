@@ -48,7 +48,7 @@ function makeCardLI(card) {
   
     document.getElementById('cardPoints').textContent = `Total Points: ${points}`;
   }
-const audio = new Audio('/sounds/card-mixing.mp3');
+const audio = new Audio('../sounds/card-mixing.mp3');
 const winningAudio = new Audio('../sounds/winning_sound_effect.mp3');
 const losingAudio = new Audio('../sounds/losing_sound_effect.mp3');
 
