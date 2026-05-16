@@ -181,7 +181,7 @@ function determineOutcome() {
   }
 
 function updateBalanceDisplay() {
-    document.getElementById('balanceDisplay').innerText = `Balance: $${currency.getBalance().toFixed(2)}`;
+    document.getElementById('balanceAmount').innerText = `Balance: $${currency.getBalance().toFixed(2)}`;
 }
 
 document.addEventListener('DOMContentLoaded', updateBalanceDisplay);

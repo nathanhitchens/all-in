@@ -6,9 +6,20 @@ body {
 
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #000000;
     color: #fff8f8;
+}
+
+body.dark {
+    color: white;
+}
+
+body .game-card img {
+    filter: invert(0);
+}
+
+body.dark .game-card img {
+    filter: invert(1);
 }
 
 .navbar {

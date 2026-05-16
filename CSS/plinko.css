@@ -9,7 +9,6 @@
 body {
   background-color: #151510;
   color: white;
-  font-family: sans-serif;
   margin: 0;
   text-align: center;
 }
@@ -83,41 +82,45 @@ input{
 }
 
 .dropdown {
-  cursor: pointer;
+    cursor: pointer;
 }
-
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 200px;
-  z-index: 1;
-  top: 100%;
-  left: 0;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  color: black;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #6c6d60;
 }
 
-.dropdown-content.show {
-  display: flex;
-  opacity: 1;
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
 }
 
 .navbar.dark .dropdown-content {
-  background-color: #515248;
+    background-color: #515248;
 }
 
 .dropdown-item {
-  padding: 10px 15px;
+    padding: 10px 15px;
 }
 
 .dropdown-item a {
-  color: black;
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    color: var(--text-color);
 }
 .dropButton {
   width: 90px;

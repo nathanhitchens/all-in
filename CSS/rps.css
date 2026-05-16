@@ -157,7 +157,6 @@ input {
 .dropdown {
     cursor: pointer;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -169,11 +168,12 @@ input {
     border-radius: 5px;
     opacity: 0;
     transition: opacity 0.3s ease;
-    color: black;
+    color: #6c6d60;
 }
 
-.dropdown-content.show {
+.dropdown:hover .dropdown-content {
     display: flex;
+    flex-direction: column;
     opacity: 1;
 }
 
@@ -190,6 +190,10 @@ input {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    color: var(--text-color);
 }
 
 .page-title,
