@@ -1,6 +1,6 @@
 var audio = document.getElementById('slots_audio');
-const winningAudio = new Audio('/audio/winning_sound_effect.mp3');
-const losingAudio = new Audio('/audio/losing_sound_effect.mp3');
+const winningAudio = new Audio('/sounds/winning_sound_effect.mp3');
+const losingAudio = new Audio('/sounds/losing_sound_effect.mp3');
 let spinning = false;
 
 winningAudio.preload = 'auto';
