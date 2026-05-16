@@ -9,7 +9,7 @@
 body {
     overflow-x: hidden;
     background-color: #d0cccc;
-    background-image: url('/images/baccarat7.jpg');
+    background-image: url('../images/baccarat7.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
