@@ -49,8 +49,8 @@ function makeCardLI(card) {
     document.getElementById('cardPoints').textContent = `Total Points: ${points}`;
   }
 const audio = new Audio('/sounds/card-mixing.mp3');
-const winningAudio = new Audio('/sounds/winning_sound_effect.mp3');
-const losingAudio = new Audio('/sounds/losing_sound_effect.mp3');
+const winningAudio = new Audio('../sounds/winning_sound_effect.mp3');
+const losingAudio = new Audio('../sounds/losing_sound_effect.mp3');
 
 const ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'];
 const rankValues = {

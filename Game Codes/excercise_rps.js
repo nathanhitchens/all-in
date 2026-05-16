@@ -5,8 +5,8 @@ let currentBet = 0;
 let computer = '';
 let player = '';
 
-const winningAudio = new Audio('/sounds/winning_sound_effect.mp3');
-const losingAudio = new Audio('/sounds/losing_sound_effect.mp3');
+const winningAudio = new Audio('../sounds/winning_sound_effect.mp3');
+const losingAudio = new Audio('../sounds/losing_sound_effect.mp3');
 
 winningAudio.preload = 'auto';
 losingAudio.preload = 'auto';
